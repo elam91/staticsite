@@ -6,13 +6,17 @@
 
         a {
             text-decoration: none;
+            color-adjust: black;
+            color: black;
         }
 
+        #quote{
+            font-weight: 600;
+        }
         .header {
             background-color: lightgray;
             background-blend-mode: multiply;
             text-align: center;
-            font-weight: 800;
             border: 10px solid transparent;
             padding: 5px;
             border-image: url(https://previews.123rf.com/images/iradvilyuk/iradvilyuk1611/iradvilyuk161100056/66761487-memphis-verical-seamless-border-with-geometric-shapes-abstract-80s-90s-styles-design-trendy-memphis-.jpg) 30 round;
@@ -22,6 +26,7 @@
             color: black;
             color-adjust: black;
             font-size: 400%;
+            font-weight: 800;
         }
 
         #mainsong {
@@ -68,4 +73,35 @@
             padding: 20px;
             margin-top: 20px;
             border-image: url(https://previews.123rf.com/images/iradvilyuk/iradvilyuk1611/iradvilyuk161100056/66761487-memphis-verical-seamless-border-with-geometric-shapes-abstract-80s-90s-styles-design-trendy-memphis-.jpg) 30 round;
+        }
+
+        .linkbar {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        .folderbox {
+      
+            position: relative;
+            padding: 5px;
+            align-self: center;
+        }
+
+        .folderimg {
+            max-width: 100px;
+            padding-left:10px;
+            padding-right:10px;
+            align-content: center;
+        }
+
+        .linktext {
+            position: absolute;
+            top: 50%;
+            width: 90%;
+            background-color: mediumorchid;
+            text-align: center;
+            margin-right: 10px;
+            font-weight: 700;
+            font-size: 16px;
         }
