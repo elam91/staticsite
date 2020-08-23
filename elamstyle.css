@@ -1,0 +1,40 @@
+        body {
+            background-color: rgb(245, 138, 255);
+            font-family: "Assistant";
+        }
+        
+        a
+        {
+            text-decoration:none;
+        }
+        h1 {
+            background-color: lightgray;
+            background-blend-mode: multiply;
+            text-align: center;
+            font-weight: 800;
+            border: 10px solid transparent;
+            padding: 15px;
+            border-image: url(https://previews.123rf.com/images/iradvilyuk/iradvilyuk1611/iradvilyuk161100056/66761487-memphis-verical-seamless-border-with-geometric-shapes-abstract-80s-90s-styles-design-trendy-memphis-.jpg) 30 round;
+        }
+        
+        p {
+            text-align: center;
+            font-weight: 400;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 10px solid transparent;
+            padding: 15px;
+            border-image: url(https://previews.123rf.com/images/iradvilyuk/iradvilyuk1611/iradvilyuk161100056/66761487-memphis-verical-seamless-border-with-geometric-shapes-abstract-80s-90s-styles-design-trendy-memphis-.jpg) 30 round;
+        }
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: lightgray;
+            border: 10px solid transparent;
+            padding: 15px;
+            border-image: url(https://previews.123rf.com/images/iradvilyuk/iradvilyuk1611/iradvilyuk161100056/66761487-memphis-verical-seamless-border-with-geometric-shapes-abstract-80s-90s-styles-design-trendy-memphis-.jpg) 30 round;
+        }
