@@ -90,6 +90,7 @@
 
         .folderimg {
             max-width: 100px;
+            max-height: 100px;
             padding-left:10px;
             padding-right:10px;
             align-content: center;
