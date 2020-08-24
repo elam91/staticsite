@@ -108,8 +108,8 @@
             font-size: 16px;
         
         }
-        
-        @media only screen and (max-width: 600px) {
+
+        @media only screen and (max-width: 830px) {
             /* For mobile phones only */
 
            
@@ -141,7 +141,7 @@
         }
 
 
-        @media only screen and (min-width: 768px) {
+        @media only screen and (min-width: 830px) {
             /* For desktop: */
             .col-1 {
                 width: 8.33%;
