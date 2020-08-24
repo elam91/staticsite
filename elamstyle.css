@@ -108,7 +108,37 @@
             font-size: 16px;
         
         }
+        
+        @media only screen and (max-width: 600px) {
+            /* For mobile phones only */
 
+           
+            #errorleft {
+                display: none;
+            }
+            #errorright {
+                display: none;
+            }
+            .folderbox {
+                flex: 50%;
+                max-width: 150px;
+            }
+
+            .empty {
+                display: none;
+            }
+            #emailbox {
+                display: none;
+            }
+            .headertext {
+                font-size: 200%;
+                
+            }
+            #quote {
+                font-size: 80%;
+            }
+        
+        }
 
 
         @media only screen and (min-width: 768px) {
@@ -182,33 +212,4 @@
 
 
 
-        @media only screen and (max-width: 600px) {
-            /* For mobile phones only */
-
-           
-            #errorleft {
-                display: none;
-            }
-            #errorright {
-                display: none;
-            }
-            .folderbox {
-                flex: 50%;
-                max-width: 150px;
-            }
-
-            .empty {
-                display: none;
-            }
-            #emailbox {
-                display: none;
-            }
-            .headertext {
-                font-size: 200%;
-                
-            }
-            #quote {
-                font-size: 80%;
-            }
-        
-        }
+      
