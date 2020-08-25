@@ -11,99 +11,101 @@
 
 <body>
     <div class=col-12 id="header">
-        <a  target="_blank" href="index.html">
+        <a target="_blank" href="index.html">
             <h1 class="headertext">Troye Sivan</h1>
             <h3 id="quote">"I just wanna go back, back to 1999."</h3>
         </a></div>
-<div class="row">
-    <div class="col-3 empty"></div>
-    <div class="col-6" id="linkbar">
-        <a  target="_blank" class="folderbox" href="https://twitter.com/troyesivan">
+    <div class="row">
+        <div class="col-3 empty"></div>
+        <div class="col-6" id="linkbar">
+            <a target="_blank" class="folderbox" href="https://twitter.com/troyesivan">
                 <div><img class="folderimg" src="folder.png">
                     <div class="linktext">Twitter</div>
                 </div>
 
-        </a>
-        <a  target="_blank" class="folderbox" href="https://www.instagram.com/troyesivan/?hl=en">
+            </a>
+            <a target="_blank" class="folderbox" href="https://www.instagram.com/troyesivan/?hl=en">
                 <div><img class="folderimg" src="folder.png">
                     <div class="linktext">Instagram</div>
                 </div>
-        </a>
-        <a target="_blank" class="folderbox" href="https://www.youtube.com/channel/UCWcrr8Q9INGNp-PTCLTzc8Q">
+            </a>
+            <a target="_blank" class="folderbox" href="https://www.youtube.com/channel/UCWcrr8Q9INGNp-PTCLTzc8Q">
                 <div><img class="folderimg" src="folder.png">
                     <div class="linktext">YouTube</div>
                 </div>
-        </a>
-        <a target="_blank" class="folderbox" id="emailbox" href="mailto:elam91@gmail.com">
+            </a>
+            <a target="_blank" class="folderbox" id="emailbox" href="mailto:elam91@gmail.com">
                 <div><img class="folderimg" src="folder.png">
                     <div class="linktext">E-mail</div>
                 </div>
 
-        </a>
+            </a>
 
-        <a target="_blank" class="folderbox" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <a target="_blank" class="folderbox" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                 <div><img class="folderimg" src="folder.png">
                     <div class="linktext">Danger</div>
                 </div>
-        </a>
+            </a>
+        </div>
+        <div class="col-3 empty"></div>
     </div>
-    <div class="col-3 empty"></div>
-</div>
 
 
     <div class="images col-12">
         <img class="imagecolumn" id="errorleft" src="errormymymy.png">
-        <a  target="_blank" href="https://www.google.com/search?q=troye+sivan+is+cute&tbm=isch&ved=2ahUKEwjZ0I7Og7LrAhWK4oUKHXGEDsEQ2-cCegQIABAA&oq=troye+sivan+is+cute&gs_lcp=CgNpbWcQAzoECCMQJzoECAAQQzoCCABQ1XhY-X5g3X9oAHAAeACAAYkBiAG0BpIBAzAuN5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=L79CX5n9IorFlwTxiLqIDA&bih=913&biw=924&client=ubuntu&hs=vpy"><img
-            id="mainphoto"
-            src="https://static.ffx.io/images/$zoom_0.213,$multiply_1,$ratio_1.5,$width_756,$x_0,$y_43/t_crop_custom/w_736/q_86,f_auto/18445d4e7e939809fbfac53329266f71dd64336b"
-            alt="troye" class="imagecolumn"></a>
+        <a target="_blank"
+            href="https://www.google.com/search?q=troye+sivan+is+cute&tbm=isch&ved=2ahUKEwjZ0I7Og7LrAhWK4oUKHXGEDsEQ2-cCegQIABAA&oq=troye+sivan+is+cute&gs_lcp=CgNpbWcQAzoECCMQJzoECAAQQzoCCABQ1XhY-X5g3X9oAHAAeACAAYkBiAG0BpIBAzAuN5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=L79CX5n9IorFlwTxiLqIDA&bih=913&biw=924&client=ubuntu&hs=vpy"><img
+                id="mainphoto"
+                src="https://pyxis.nymag.com/v1/imgs/1aa/23c/fe942c1012b1e9a0286d1a66b8fe333701-troye-sivan.rvertical.w570.jpg"
+                alt="troye" class="imagecolumn"></a>
 
-    <img class="imagecolumn" id="errorright" src="Error_Message.png">
-</div>
-<div id="youtubebox" class="col-4">
-
-    <iframe id="youtubewindow" class="latestVideoEmbed" vnum='0' cid="UCnsa7fw1hZHP5qvf8zVGnvA" width="450" height="255" frameborder="0" autoplay="allow" allowfullscreen></iframe>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script>
-    var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
-    function loadVideo(iframe) {
-      $.getJSON(reqURL + iframe.getAttribute('cid'),
-        function(data) {
-          var videoNumber = (iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0);
-          console.log(videoNumber);
-          var link = data.items[videoNumber].link;
-          id = link.substr(link.indexOf("=") + 1);
-          iframe.setAttribute("src", "https://youtube.com/embed/" + id + "?controls=0&autoplay=1");
-        }
-      );
-    }
-    var iframes = document.getElementsByClassName('latestVideoEmbed');
-    for (var i = 0, len = iframes.length; i < len; i++) {
-      loadVideo(iframes[i]);
-    }
-    </script>
-    
+        <img class="imagecolumn" id="errorright" src="Error_Message.png">
     </div>
- 
-<div class="col-4">
-    <p id="mainsong">You ran away to find something to say<br> I went astray to make it okay<br> And he made it
-        easy,
-        darlin'<br>
-        I'm still in love, and I say that because<br> I know how it seems between you and me<br> It hasn't been
-        easy,
-        darlin'
-        <br>
-        <br> I can't even look at you<br> Would you look at the space just next to your feet?<br> The wood is
-        warping
-        <br> The lines distorting<br> This house is on fire, woo!<br> Burning the tears right off my face<br> What
-        the
-        hell did we re, woo!<br> Burning the tears right off my face<br> What the hell did we do?<br> Tell me we'll
-        make
-        it through<br>
-        <br> 'Cause he made it easy, easy<br> Please, don't leave me, leave me (Easy)<br>
+    <div id="youtubebox" class="col-4">
 
-        <br> What's left of the dance?<br> The smell on my hands<br> The rock in my throat, a hair on my coat<br>
-        The
+        <iframe id="youtubewindow" class="latestVideoEmbed" vnum='0' cid="UCnsa7fw1hZHP5qvf8zVGnvA" width="450"
+            height="255" frameborder="0" autoplay="allow" allowfullscreen></iframe>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+            var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
+            function loadVideo(iframe) {
+                $.getJSON(reqURL + iframe.getAttribute('cid'),
+                    function (data) {
+                        var videoNumber = (iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0);
+                        console.log(videoNumber);
+                        var link = data.items[videoNumber].link;
+                        id = link.substr(link.indexOf("=") + 1);
+                        iframe.setAttribute("src", "https://youtube.com/embed/" + id + "?controls=0&autoplay=1");
+                    }
+                );
+            }
+            var iframes = document.getElementsByClassName('latestVideoEmbed');
+            for (var i = 0, len = iframes.length; i < len; i++) {
+                loadVideo(iframes[i]);
+            }
+        </script>
+
+    </div>
+
+    <div class="col-4">
+        <p id="mainsong">You ran away to find something to say<br> I went astray to make it okay<br> And he made it
+            easy,
+            darlin'<br>
+            I'm still in love, and I say that because<br> I know how it seems between you and me<br> It hasn't been
+            easy,
+            darlin'
+            <br>
+            <br> I can't even look at you<br> Would you look at the space just next to your feet?<br> The wood is
+            warping
+            <br> The lines distorting<br> This house is on fire, woo!<br> Burning the tears right off my face<br> What
+            the
+            hell did we re, woo!<br> Burning the tears right off my face<br> What the hell did we do?<br> Tell me we'll
+            make
+            it through<br>
+            <br> 'Cause he made it easy, easy<br> Please, don't leave me, leave me (Easy)<br>
+
+            <br> What's left of the dance?<br> The smell on my hands<br> The rock in my throat, a hair on my coat<br>
+            The
             stranger at home, my darling<br> (Like some kind of freak, my darling)<br> Now I'm vulnerable, so sad and
             alone
             <br> But don't cry for me, 'cause everyone knows<br> You reap what you sow, my darling<br> Yeah, yeah,
@@ -115,7 +117,28 @@
             the
             hell did we do?<br> Tell me we'll make it through</p>
     </div>
-<div class="col-4 empty"></div>
+    <div id="twitterboxbox" class="col-4">
+        <div class="twitterbox">
+        <blockquote class="twitter-tweet" data-theme="dark">
+            <p lang="en" dir="ltr">OH MY GOD THEY ARE HAVING SEX</p>&mdash; troye (@troyesivan) <a
+                href="https://twitter.com/troyesivan/status/412503433099223040?ref_src=twsrc%5Etfw"></a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+    </div>
+    </div>
+    <div class="row">
+        <div id="albums" class="col-12">
+<img class="albumimg"   src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Dare_to_Dream_by_Troye_Sivan.jpg/220px-Dare_to_Dream_by_Troye_Sivan.jpg" alt="daretodream"> 
+<img class="albumimg"   src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/June_Haverly_EP_by_Troye_Sivan.jpg/220px-June_Haverly_EP_by_Troye_Sivan.jpg" alt="June Haverly">
+<img class="albumimg"   src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/TRXYE_EP_2014.png/220px-TRXYE_EP_2014.png" alt="TRXYE">
+<img class="albumimg"   src="https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Wild_by_Troye_Sivan.png/220px-Wild_by_Troye_Sivan.png" alt="Wild">
+<img class="albumimg"   src="https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Troye_Sivan_-_Blue_Neighbourhood.png/220px-Troye_Sivan_-_Blue_Neighbourhood.png" alt="BlueNeighbourhood">
+<img class="albumimg"   src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Troye_Sivan_-_Bloom_%28Official_Album_Cover%29.png/220px-Troye_Sivan_-_Bloom_%28Official_Album_Cover%29.png" alt="Bloom">
+<img class="albumimg"   src="https://upload.wikimedia.org/wikipedia/en/thumb/9/90/Troye_Sivan_-_In_a_Dream.png/220px-Troye_Sivan_-_In_a_Dream.png" alt="In a dream">
+
+        </div>
+    </div>
 </body>
 
 </html>
