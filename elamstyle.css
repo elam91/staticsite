@@ -32,8 +32,13 @@
             border-left: 3px solid transparent;
             border-right: 4px solid transparent;
             border-image: url(win95window.png) 25 5 round;
+            
         }
-
+        #youtubebox {
+            text-align: center;
+            }
+    
+    
         #mainphoto {
             align-self: center;
             background-color: lightgray;
