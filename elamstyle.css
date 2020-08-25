@@ -63,21 +63,6 @@
         }
     
     
-        #mainphoto {        
-            /* border: 10px solid transparent; */
-           padding: 0%;
-            max-width: 100%;
-            margin-top: 20px;
-            border-top: 90px solid transparent;
-            border-right: 50px solid transparent;
-            border-bottom: 200px solid  transparent;
-            border-left: 135px solid transparent;
-            border-image: url(paintwindow.png) 90 50 200 135 fill;
-            background-color: white;
-            
-         
-            /*border-image: url(https://previews.123rf.com/images/iradvilyuk/iradvilyuk1611/iradvilyuk161100056/66761487-memphis-verical-seamless-border-with-geometric-shapes-abstract-80s-90s-styles-design-trendy-memphis-.jpg) 30 round;*/
-        }
 
         #quote {
             font-weight: 600;
@@ -137,7 +122,6 @@
             max-width: 100%;
             min-width: 0;
             flex-wrap: wrap;
-            background-color: black;
             background-repeat: repeat;
         }
         
@@ -182,7 +166,17 @@
         @media only screen and (max-width: 830px) {
             /* For mobile phones only */
 
-           
+            #mainphoto {        
+                margin-top: 15px;
+                max-width: 100%;
+                align-self: center;
+                text-align: center;
+                background-color: lightgray;
+                border: 10px solid transparent;
+                padding: 5px;
+                border-image: url(https://previews.123rf.com/images/iradvilyuk/iradvilyuk1611/iradvilyuk161100056/66761487-memphis-verical-seamless-border-with-geometric-shapes-abstract-80s-90s-styles-design-trendy-memphis-.jpg) 30 round;
+             
+            }
             #errorleft {
                 display: none;
             }
@@ -269,6 +263,21 @@
                 padding: 20px;
             }
 
+        #mainphoto {        
+            /* border: 10px solid transparent; */
+           padding: 0%;
+            max-width: 100%;
+            margin-top: 20px;
+            border-top: 90px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 200px solid  transparent;
+            border-left: 135px solid transparent;
+            border-image: url(paintwindow.png) 90 50 200 135 fill;
+            background-color: white;
+            
+         
+            /*border-image: url(https://previews.123rf.com/images/iradvilyuk/iradvilyuk1611/iradvilyuk161100056/66761487-memphis-verical-seamless-border-with-geometric-shapes-abstract-80s-90s-styles-design-trendy-memphis-.jpg) 30 round;*/
+        }
       /*  #space {
             padding: 2%;
         } */
